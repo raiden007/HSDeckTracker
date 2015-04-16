@@ -13,6 +13,13 @@
 		6DC759141ADE91C3007E58E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC759131ADE91C3007E58E7 /* Images.xcassets */; };
 		6DC759171ADE91C3007E58E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC759151ADE91C3007E58E7 /* LaunchScreen.xib */; };
 		6DC759231ADE91C3007E58E7 /* HSDeckTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC759221ADE91C3007E58E7 /* HSDeckTrackerTests.swift */; };
+		6DC759351ADE9202007E58E7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC759341ADE9202007E58E7 /* InterfaceController.swift */; };
+		6DC759371ADE9202007E58E7 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC759361ADE9202007E58E7 /* GlanceController.swift */; };
+		6DC759391ADE9202007E58E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC759381ADE9202007E58E7 /* Images.xcassets */; };
+		6DC7593D1ADE9202007E58E7 /* HSDeckTracker WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7593C1ADE9202007E58E7 /* HSDeckTracker WatchKit App.app */; };
+		6DC759451ADE9202007E58E7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC759431ADE9202007E58E7 /* Interface.storyboard */; };
+		6DC759471ADE9202007E58E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC759461ADE9202007E58E7 /* Images.xcassets */; };
+		6DC7594A1ADE9202007E58E7 /* HSDeckTracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6DC759301ADE9202007E58E7 /* HSDeckTracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = 6DC759061ADE91C3007E58E7;
 			remoteInfo = HSDeckTracker;
 		};
+		6DC7593E1ADE9202007E58E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC758FF1ADE91C3007E58E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC7593B1ADE9202007E58E7;
+			remoteInfo = "HSDeckTracker WatchKit App";
+		};
+		6DC759481ADE9202007E58E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC758FF1ADE91C3007E58E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC7592F1ADE9202007E58E7;
+			remoteInfo = "HSDeckTracker WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DC759511ADE9202007E58E7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6DC7594A1ADE9202007E58E7 /* HSDeckTracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6DC759071ADE91C3007E58E7 /* HSDeckTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSDeckTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,15 @@
 		6DC7591C1ADE91C3007E58E7 /* HSDeckTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSDeckTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC759211ADE91C3007E58E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DC759221ADE91C3007E58E7 /* HSDeckTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSDeckTrackerTests.swift; sourceTree = "<group>"; };
+		6DC759301ADE9202007E58E7 /* HSDeckTracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HSDeckTracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC759331ADE9202007E58E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC759341ADE9202007E58E7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		6DC759361ADE9202007E58E7 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		6DC759381ADE9202007E58E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DC7593C1ADE9202007E58E7 /* HSDeckTracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HSDeckTracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC759421ADE9202007E58E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC759441ADE9202007E58E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6DC759461ADE9202007E58E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DC7592D1ADE9202007E58E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +112,8 @@
 			children = (
 				6DC759091ADE91C3007E58E7 /* HSDeckTracker */,
 				6DC7591F1ADE91C3007E58E7 /* HSDeckTrackerTests */,
+				6DC759311ADE9202007E58E7 /* HSDeckTracker WatchKit Extension */,
+				6DC759401ADE9202007E58E7 /* HSDeckTracker WatchKit App */,
 				6DC759081ADE91C3007E58E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +123,8 @@
 			children = (
 				6DC759071ADE91C3007E58E7 /* HSDeckTracker.app */,
 				6DC7591C1ADE91C3007E58E7 /* HSDeckTrackerTests.xctest */,
+				6DC759301ADE9202007E58E7 /* HSDeckTracker WatchKit Extension.appex */,
+				6DC7593C1ADE9202007E58E7 /* HSDeckTracker WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +167,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6DC759311ADE9202007E58E7 /* HSDeckTracker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6DC759341ADE9202007E58E7 /* InterfaceController.swift */,
+				6DC759361ADE9202007E58E7 /* GlanceController.swift */,
+				6DC759381ADE9202007E58E7 /* Images.xcassets */,
+				6DC759321ADE9202007E58E7 /* Supporting Files */,
+			);
+			path = "HSDeckTracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6DC759321ADE9202007E58E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC759331ADE9202007E58E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DC759401ADE9202007E58E7 /* HSDeckTracker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6DC759431ADE9202007E58E7 /* Interface.storyboard */,
+				6DC759461ADE9202007E58E7 /* Images.xcassets */,
+				6DC759411ADE9202007E58E7 /* Supporting Files */,
+			);
+			path = "HSDeckTracker WatchKit App";
+			sourceTree = "<group>";
+		};
+		6DC759411ADE9202007E58E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC759421ADE9202007E58E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +214,12 @@
 				6DC759031ADE91C3007E58E7 /* Sources */,
 				6DC759041ADE91C3007E58E7 /* Frameworks */,
 				6DC759051ADE91C3007E58E7 /* Resources */,
+				6DC759511ADE9202007E58E7 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6DC759491ADE9202007E58E7 /* PBXTargetDependency */,
 			);
 			name = HSDeckTracker;
 			productName = HSDeckTracker;
@@ -150,6 +244,39 @@
 			productReference = 6DC7591C1ADE91C3007E58E7 /* HSDeckTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6DC7592F1ADE9202007E58E7 /* HSDeckTracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC7594E1ADE9202007E58E7 /* Build configuration list for PBXNativeTarget "HSDeckTracker WatchKit Extension" */;
+			buildPhases = (
+				6DC7592C1ADE9202007E58E7 /* Sources */,
+				6DC7592D1ADE9202007E58E7 /* Frameworks */,
+				6DC7592E1ADE9202007E58E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC7593F1ADE9202007E58E7 /* PBXTargetDependency */,
+			);
+			name = "HSDeckTracker WatchKit Extension";
+			productName = "HSDeckTracker WatchKit Extension";
+			productReference = 6DC759301ADE9202007E58E7 /* HSDeckTracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		6DC7593B1ADE9202007E58E7 /* HSDeckTracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC7594B1ADE9202007E58E7 /* Build configuration list for PBXNativeTarget "HSDeckTracker WatchKit App" */;
+			buildPhases = (
+				6DC7593A1ADE9202007E58E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HSDeckTracker WatchKit App";
+			productName = "HSDeckTracker WatchKit App";
+			productReference = 6DC7593C1ADE9202007E58E7 /* HSDeckTracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +292,12 @@
 					6DC7591B1ADE91C3007E58E7 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 6DC759061ADE91C3007E58E7;
+					};
+					6DC7592F1ADE9202007E58E7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					6DC7593B1ADE9202007E58E7 = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -183,6 +316,8 @@
 			targets = (
 				6DC759061ADE91C3007E58E7 /* HSDeckTracker */,
 				6DC7591B1ADE91C3007E58E7 /* HSDeckTrackerTests */,
+				6DC7592F1ADE9202007E58E7 /* HSDeckTracker WatchKit Extension */,
+				6DC7593B1ADE9202007E58E7 /* HSDeckTracker WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +337,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC7592E1ADE9202007E58E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC759391ADE9202007E58E7 /* Images.xcassets in Resources */,
+				6DC7593D1ADE9202007E58E7 /* HSDeckTracker WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC7593A1ADE9202007E58E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC759451ADE9202007E58E7 /* Interface.storyboard in Resources */,
+				6DC759471ADE9202007E58E7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +378,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DC7592C1ADE9202007E58E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC759351ADE9202007E58E7 /* InterfaceController.swift in Sources */,
+				6DC759371ADE9202007E58E7 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +394,16 @@
 			isa = PBXTargetDependency;
 			target = 6DC759061ADE91C3007E58E7 /* HSDeckTracker */;
 			targetProxy = 6DC7591D1ADE91C3007E58E7 /* PBXContainerItemProxy */;
+		};
+		6DC7593F1ADE9202007E58E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC7593B1ADE9202007E58E7 /* HSDeckTracker WatchKit App */;
+			targetProxy = 6DC7593E1ADE9202007E58E7 /* PBXContainerItemProxy */;
+		};
+		6DC759491ADE9202007E58E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC7592F1ADE9202007E58E7 /* HSDeckTracker WatchKit Extension */;
+			targetProxy = 6DC759481ADE9202007E58E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +422,14 @@
 				6DC759161ADE91C3007E58E7 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		6DC759431ADE9202007E58E7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC759441ADE9202007E58E7 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +570,62 @@
 			};
 			name = Release;
 		};
+		6DC7594C1ADE9202007E58E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HSDeckTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "HSDeckTracker WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		6DC7594D1ADE9202007E58E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HSDeckTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "HSDeckTracker WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		6DC7594F1ADE9202007E58E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HSDeckTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6DC759501ADE9202007E58E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HSDeckTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +651,22 @@
 			buildConfigurations = (
 				6DC7592A1ADE91C3007E58E7 /* Debug */,
 				6DC7592B1ADE91C3007E58E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DC7594B1ADE9202007E58E7 /* Build configuration list for PBXNativeTarget "HSDeckTracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC7594C1ADE9202007E58E7 /* Debug */,
+				6DC7594D1ADE9202007E58E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DC7594E1ADE9202007E58E7 /* Build configuration list for PBXNativeTarget "HSDeckTracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC7594F1ADE9202007E58E7 /* Debug */,
+				6DC759501ADE9202007E58E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

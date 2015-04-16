@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - HSDeckTracker WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>HSDeckTracker WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>HSDeckTracker.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>6DC7591B1ADE91C3007E58E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DC7593B1ADE9202007E58E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
